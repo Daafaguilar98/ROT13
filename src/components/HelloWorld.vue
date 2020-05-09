@@ -96,6 +96,8 @@ export default {
 <style scoped lang="scss">
 .matrix__text{
   color: #00FF41;
+  display: grid;
+  grid-template-rows: auto 1fr;
 }
 .matrix__input{
   padding: 20px;
@@ -149,14 +151,10 @@ export default {
 }
 @media(max-width: 900px) {
   .matrix__input{
-    height: 35vh;
-    
+
     input{
       margin-bottom: 10px;
     }
-  }
-  .matrix__output{
-    height: 65vh;
   }
 }
 </style>
