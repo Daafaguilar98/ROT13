@@ -147,4 +147,12 @@ export default {
   width: 100%;
   height: 99%;
 }
+@media(max-width: 900px) {
+  .matrix__input{
+    height: 30vh;
+  }
+  .matrix__output{
+    height: 70vh;
+  }
+}
 </style>
