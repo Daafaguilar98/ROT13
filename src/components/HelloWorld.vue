@@ -101,7 +101,6 @@ export default {
 }
 .matrix__input{
   padding: 20px;
-  height: 20vh;
 
   &__label{
     font-size: 22px;
@@ -135,7 +134,6 @@ export default {
 }
 .matrix__output{
   width: 100%;
-  height: 80vh;
   position: relative;
   display: flex;
   justify-content: center;
