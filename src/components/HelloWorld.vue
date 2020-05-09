@@ -149,10 +149,14 @@ export default {
 }
 @media(max-width: 900px) {
   .matrix__input{
-    height: 30vh;
+    height: 35vh;
+    
+    input{
+      margin-bottom: 10px;
+    }
   }
   .matrix__output{
-    height: 70vh;
+    height: 65vh;
   }
 }
 </style>
